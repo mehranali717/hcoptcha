@@ -1,0 +1,154 @@
+.about {
+    background: linear-gradient(180deg,
+            rgba(235, 245, 255, 0) 0%,
+            #eaf5ff 40.67%);
+    padding: 111px 0 166px;
+}
+
+.about-media {
+    width: 100%;
+    max-width: 703px;
+    position: relative;
+}
+
+.about-rebot {
+    width: 100%;
+    max-width: 188px;
+    position: absolute;
+    right: 34px;
+    bottom: -91px;
+}
+
+.about-left-side {
+    padding-top: 6px;
+    padding-left: 0px;
+}
+
+.about-left-side h3 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 52.8px;
+    letter-spacing: -0.02em;
+    margin-bottom: 20px;
+    color: var(--black);
+}
+
+.about-left-side p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32.8px;
+    color: var(--gray);
+    margin-bottom: 41px;
+}
+
+.started-button {
+    background: var(--sky);
+    border: none;
+}
+
+.help {
+    background: linear-gradient(180deg,
+            rgba(235, 245, 255, 0) 0%,
+            #eaf5ff 40.67%);
+    padding: 111px 0 166px;
+
+    z-index: -2;
+    position: relative;
+}
+
+.help-bg {
+    width: 100%;
+    max-width: 1100px;
+    position: absolute;
+    bottom: 0px;
+    left: -96px;
+    z-index: -1;
+}
+
+.help .about-left-side {
+    padding-top: 80px;
+    padding-left: 90px;
+}
+
+@media only screen and (max-width: 1199px) {
+    .about-left-side h3 {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+
+    .about-left-side p {
+        font-size: 18px;
+        margin-bottom: 31px;
+    }
+
+    .help .about-left-side {
+        padding-top: 9px;
+        padding-left: 46px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .about-media {
+        margin: 0 auto;
+    }
+
+    .about-left-side {
+        padding-top: 28px;
+    }
+
+    .about-media {
+        width: 100%;
+        max-width: 563px;
+        position: relative;
+        margin: unset;
+    }
+
+    .help .about-left-side {
+        padding-top: 26px;
+        padding-left: 0px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .about {
+        padding: 48px 0 38px;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .about {
+        padding: 48px 17px 38px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .about-rebot {
+        max-width: 130px;
+        right: 12px;
+        bottom: -68px;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .about {
+        padding: 38px 7px 37px;
+    }
+
+    .about-left-side h3 {
+        font-size: 25px;
+        margin-bottom: 5px;
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .about-left-side p {
+        font-size: 17px;
+        margin-bottom: 21px;
+        line-height: 29.8px;
+    }
+
+    .help .about-left-side {
+        padding-top: 4px;
+    }
+}

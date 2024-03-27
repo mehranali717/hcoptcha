@@ -1,10 +1,11 @@
-import { Header, Hero } from "@/sections";
+import { AboutUs, Header, Hero } from "@/sections";
 
 const Home = () => {
   return (
     <>
       <Header />
       <Hero />
+      <AboutUs />
     </>
   );
 };
