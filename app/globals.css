@@ -98,3 +98,471 @@
     height: 92px;
   }
   
+
+  /* Extra large devices (large laptops and desktops, 1199px and up) */
+@media only screen and (max-width: 1199px) {
+  h1 {
+    font-size: 45px;
+    line-height: 57.48px;
+    margin-bottom: 16px;
+  }
+
+  .hero .hero-content p {
+    padding-right: 52px;
+    margin-bottom: 31px;
+  }
+  .hero h1::after {
+    top: -45px;
+    right: -5px;
+  }
+
+  .about-left-side h3 {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  .about-left-side p {
+    font-size: 18px;
+    margin-bottom: 31px;
+  }
+  .analytics .analytics-box h3 {
+    font-size: 36px;
+  }
+  .analytics .analytics-box p {
+    font-size: 11px;
+  }
+  .analytics .analytics-box h5 {
+    margin-bottom: 31px;
+  }
+  .pricing .pricing-card p {
+    margin-bottom: 104px;
+    padding-right: 15px;
+  }
+  .help .about-left-side {
+    padding-top: 9px;
+    padding-left: 46px;
+  }
+}
+
+/* Large devices (laptops/desktops, 1024px and up) */
+@media only screen and (max-width: 1024px) {
+  .pricing .pricing-box::after {
+    max-width: 82px;
+    height: 178px;
+  }
+
+  .pricing .box-inner h4 {
+    font-size: 27px;
+    margin-bottom: 64px;
+    padding-right: 18px;
+  }
+  .pricing .box-inner h3 {
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 105.6px;
+    letter-spacing: -0.02em;
+    color: var(--sky);
+  }
+
+  .pricing .pricing-box {
+    padding: 73px 10px 54px 28px;
+  }
+  .pricing .pricing-box::after {
+    max-width: 60px;
+    height: 116px;
+  }
+  .pricing .pricing-card h3 {
+    font-size: 21px;
+    margin-bottom: 14px;
+  }
+  .pricing .pricing-card {
+    padding: 32px 58px 42px 46px;
+  }
+  .pricing .box-inner h5 {
+    margin-bottom: 126px;
+  }
+}
+
+/* Large devices (laptops/desktops, 991px and up) */
+@media only screen and (max-width: 991px) {
+  .navbar-toggler {
+    text-decoration: none;
+    margin-right: 0px;
+    width: 30px;
+    height: 43px;
+    background: transparent !important;
+    border-radius: unset;
+    display: flex;
+    flex-direction: column;
+    border-radius: 6px;
+    padding: 2px 0px;
+    margin-bottom: 5px;
+    margin-top: 3px;
+  }
+  .navbar-toggler:focus {
+    box-shadow: unset;
+  }
+  .navbar-toggler-icon {
+    height: 3px;
+    width: 38px;
+    background-image: unset;
+    background-color: #072d54;
+    margin: 4px 0px;
+    border-radius: 5px;
+  }
+
+  header .header-btns {
+    text-align: center;
+    margin-top: 15px;
+  }
+
+  .hero {
+    padding: 103px 0 82px;
+  }
+  .hero .hero-content {
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+  .hero h1::after {
+    top: -55px;
+    right: -17px;
+  }
+  .hero .hero-media {
+    margin: 0 auto;
+    margin-top: 6px;
+  }
+  .about-media {
+    margin: 0 auto;
+  }
+  .about-left-side {
+    padding-top: 28px;
+  }
+  h2 {
+    font-size: 41px;
+  }
+  .analytics .analytics-box {
+    margin-bottom: 34px;
+  }
+  .analytics .analytics-box h5 {
+    font-size: 17px;
+    margin-bottom: 25px;
+  }
+  .analytics .analytics-box h3 {
+    font-size: 31px;
+    line-height: 47.36px;
+  }
+  .analytics {
+    padding: 100px 0 110px;
+    margin-bottom: 0px;
+  }
+  .analytics::after {
+    max-width: 174px;
+    height: 243px;
+    top: 9px;
+    right: 35px;
+  }
+  .services {
+    padding: 78px 0px 11px;
+  }
+  .pricing .pricing-box {
+    padding: 64px 18px 38px 60px;
+    margin-bottom: 20px;
+  }
+  .pricing .pricing-card {
+    padding: 32px 58px 42px 60px;
+  }
+  .pricing {
+    padding: 107px 9px;
+  }
+  .testimonail {
+    padding: 5px 0px 1px 0px;
+  }
+  .about-media {
+    width: 100%;
+    max-width: 563px;
+    position: relative;
+    margin: unset;
+  }
+  .help .about-left-side {
+    padding-top: 26px;
+    padding-left: 0px;
+  }
+  .help-bg {
+    max-width: 769px;
+    bottom: -14px;
+    left: -442px;
+  }
+  .help {
+    padding: 79px 0 127px;
+  }
+  footer .footer-copy p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26.24px;
+    color: var(--white);
+    margin-top: 40px;
+  }
+  footer {
+    padding: 52px 0 24px;
+  }
+  footer .footer-links ul li a {
+    font-size: 14px;
+  }
+  footer .footer-links ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 26px;
+  }
+}
+
+/* Medium devices (landscape tablets, 767px and up) */
+@media only screen and (max-width: 767px) {
+  h1 {
+    font-size: 36px;
+    line-height: 52.48px;
+    margin-bottom: 16px;
+  }
+
+  .hero h1::after {
+    top: -61px;
+    right: -35px;
+  }
+
+  .hero {
+    padding: 81px 0 42px;
+  }
+
+  .about {
+    padding: 48px 0 38px;
+  }
+
+  h2 {
+    font-size: 39px;
+  }
+  .services {
+    padding: 46px 0px 0px;
+  }
+  .pricing {
+    padding: 62px 9px;
+  }
+
+  .testimonail .slider-inner h3 {
+    font-size: 15px;
+    line-height: 29.8px;
+    min-height: 115px;
+  }
+
+  .testimonail .swiper-pagination-bullet {
+    width: 18px;
+    height: 18px;
+  }
+  .hero .hero-content p {
+    padding-right: 0px;
+    margin-bottom: 30px;
+  }
+  .testimonail .swiper-pagination-bullet-active {
+    width: 45px;
+  }
+  .swiper-horizontal > .swiper-pagination-bullets,
+  .swiper-pagination-bullets.swiper-pagination-horizontal,
+  .swiper-pagination-custom,
+  .swiper-pagination-fraction {
+    bottom: 25px;
+    left: 0;
+    width: 100%;
+  }
+
+  footer .footer-logo {
+    width: 100%;
+    max-width: 127px;
+  }
+  .hero .hero-content {
+    width: 100%;
+    max-width: 518px;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 575px and up) */
+@media only screen and (max-width: 575px) {
+  .about {
+    padding: 48px 17px 38px;
+  }
+  .analytics {
+    padding: 53px 17px 57px;
+  }
+  h2 {
+    font-size: 35px;
+    line-height: 52.36px;
+  }
+  footer {
+    padding: 39px 6px 15px;
+  }
+
+  footer .footer-logo {
+    max-width: 127px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+  footer .footer-links h3 {
+    font-size: 23px;
+    margin-bottom: 5px;
+  }
+  footer .footer-copy p {
+    margin-top: 37px;
+    text-align: center;
+  }
+  footer .footer-links {
+    max-width: 152px;
+    margin: unset;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  footer .footer-links ul {
+    margin-left: 0px;
+    text-align: center;
+  }
+  footer .footer-links ul li a {
+    text-align: center;
+  }
+  footer .footer-links h3 {
+    text-align: center;
+    margin-bottom: 5px;
+  }
+}
+
+/*  small Mobile devices( small Mobile devices, 480px and up) */
+@media only screen and (max-width: 480px) {
+  .hero h1::after {
+    top: -54px;
+    right: 14px;
+  }
+  .hero .hero-media {
+    margin-top: 3px;
+    max-width: 358px;
+  }
+  .about-rebot {
+    max-width: 130px;
+    right: 12px;
+    bottom: -68px;
+  }
+  h2 {
+    font-size: 29px;
+    line-height: 42.36px;
+  }
+  .pricing {
+    padding: 32px 9px;
+  }
+  .analytics::after {
+    max-width: 107px;
+    height: 142px;
+    top: -3px;
+    right: 18px;
+  }
+
+  .analytics .analytics-box {
+    padding: 1px 3px 20px 20px;
+    max-width: 222px;
+    border-left: 2px solid transparent;
+    border-bottom: 2px solid #072d54;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+}
+/*  small Mobile devices( small Mobile devices, 425px and up) */
+@media only screen and (max-width: 425px) {
+  .hero h1::after {
+    top: -64px;
+    right: 0px;
+  }
+  h1 {
+    font-size: 35px;
+    line-height: 51.48px;
+    margin-bottom: 16px;
+  }
+  .about-left-side h3 {
+    font-size: 25px;
+    margin-bottom: 5px;
+    margin-top: 20px;
+  }
+  .analytics .analytics-box p {
+    font-size: 14px;
+    line-height: 18.24px;
+  }
+  .analytics {
+    padding: 24px 7px 33px;
+  }
+  .about {
+    padding: 38px 7px 37px;
+  }
+  h2 {
+    font-size: 27px;
+    line-height: 38.36px;
+  }
+  .services {
+    padding: 28px 0px 0px;
+  }
+  .pricing .pricing-box {
+    padding: 48px 14px 34px 31px;
+  }
+  .pricing .pricing-card {
+    padding: 31px 32px 32px 31px;
+  }
+  .pricing .pricing-card .sellix-image {
+    max-width: 137px;
+  }
+  .pricing .pricing-card p {
+    margin-bottom: 57px;
+    padding-right: 3px;
+  }
+  .testimonail h2 {
+    margin-bottom: 40px;
+  }
+  .testimonail .swiper {
+    padding-bottom: 63px;
+  }
+  footer {
+    padding: 30px 0px 7px;
+  }
+}
+
+/* extra small Mobile devices( extra small Mobile devices, 375px and up) */
+@media only screen and (max-width: 375px) {
+  .hero .hero-media {
+    margin-top: 3px;
+    max-width: 358px;
+    display: none;
+  }
+  .hero {
+    padding: 27px 0 3px;
+  }
+  .about-left-side p {
+    font-size: 17px;
+    margin-bottom: 21px;
+    line-height: 29.8px;
+  }
+  h2 {
+    font-size: 23px;
+    line-height: 38.36px;
+  }
+  .pricing .box-inner h4 {
+    font-size: 21px;
+    margin-bottom: 62px;
+    padding-right: 18px;
+    line-height: 35.24px;
+  }
+  .help .about-left-side {
+    padding-top: 4px;
+  }
+}
+
+/*  extra small Mobile devices( extra small Mobile devices, 320px and up) */
+@media only screen and (max-width: 320px){
+  h1 {
+    font-size: 27px;
+    line-height: 37.48px;
+    margin-bottom: 15px;
+}
+}

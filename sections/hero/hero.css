@@ -1,0 +1,38 @@
+.hero {
+    background: linear-gradient(
+      to left,
+      rgba(41, 148, 255, 0.138),
+      #ffffff 50%,
+      #ffffff
+    );
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 188px 0 143px;
+  }
+  
+  .hero .hero-content {
+    width: 100%;
+    max-width: 652px;
+  }
+  
+  .hero .hero-content p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 29.52px;
+    padding-right: 79px;
+    margin-bottom: 48px;
+  }
+  
+  .hero-content button:nth-child(3) {
+    margin-right: 10px;
+    background: var(--sky);
+    border: none;
+  }
+  
+  .hero .hero-media {
+    width: 100%;
+    max-width: 667px;
+    margin-top: -61px;
+  }
