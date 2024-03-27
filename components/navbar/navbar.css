@@ -1,0 +1,18 @@
+
+header .navbar-nav {
+    align-items: center;
+}
+
+header .navbar-nav li {
+    width: 100%;
+    max-width: 62px;
+    height: 100%;
+    margin-right: 16px;
+}
+
+header .navbar-nav .nav-link {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 26px;
+    color: var(--gray);
+}

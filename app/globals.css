@@ -1,0 +1,100 @@
+/* all elements */
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+  }
+  
+  img {
+    width: 100%;
+    height: auto;
+  }
+  
+  body {
+    font-family: "Inter", sans-serif;
+    color: var(--gray);
+  }
+  
+  ul,
+  ol,
+  li,
+  a,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h5,
+  p,
+  span {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+  }
+  
+  /* color variable */
+  :root {
+    --white: #ffffff;
+    --sky: #2994ff;
+    --black: #141414;
+    --gray: #5a5c5f;
+    --pink: #a028ff;
+    --light: #fafbfc;
+  }
+  
+  .sky-fill {
+    color: var(--sky);
+  }
+  
+  .pink-fill {
+    color: var(--pink);
+  }
+  
+  .btn {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 26.24px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 8px;
+  }
+  
+  .btn-check:focus+.btn, .btn:focus{
+    box-shadow: unset;
+  }
+  
+  h1 {
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 84.48px;
+    letter-spacing: -0.02em;
+    margin-bottom: 24px;
+    position: relative;
+    color: var(--black);
+  }
+  
+  h2 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 63.36px;
+    letter-spacing: -0.02em;
+    margin-bottom: 48px;
+    color: var(--black);
+    text-transform: capitalize;
+  }
+  
+  .hero h1::after {
+    content: " ";
+    position: absolute;
+    background-image: url(../assets/images/hero-vactor.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: -30px;
+    right: 6px;
+    width: 92px;
+    height: 92px;
+  }
+  

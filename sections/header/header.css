@@ -1,0 +1,27 @@
+header {
+    background: #fff;
+    padding: 4px 20px 3px;
+}
+
+.header-logo {
+    width: 100%;
+    max-width: 152px;
+    height: 40px;
+}
+
+.header-logo a {
+    display: inline-block;
+}
+
+
+.header-btns button:nth-child(1) {
+    margin-right: 5px;
+    background: var(--sky);
+    color: var(--white);
+    border: none;
+}
+
+/* .header-btns button:nth-child() {
+    border: 1px solid rgba(41, 148, 255, 1);
+    color: var(--sky);
+} */
