@@ -1,0 +1,136 @@
+.analytics {
+    background: linear-gradient(180deg, #002752 0%, #010f1f 100%);
+    padding: 200px 0 200px;
+    margin-bottom: 50px;
+    box-shadow: 0 -48px 33px -30px rgb(40 67 255 / 44%) inset;
+    position: relative;
+}
+
+.analytics::after {
+    content: "";
+    background-image: url(../../assets/images/boxes.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    max-width: 196px;
+    height: 279px;
+    position: absolute;
+    top: 70px;
+    right: 54px;
+}
+
+.analytics h2 {
+    color: var(--white);
+    margin-bottom: 92px;
+}
+
+.analytics .analytics-box {
+    width: 100%;
+    max-width: 315px;
+    padding: 1px 3px 0px 20px;
+    border-left: 2px solid #072d54;
+    color: var(--white);
+}
+
+.analytics .analytics-box h5 {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 32.8px;
+    color: var(--sky);
+    margin-bottom: 40px;
+}
+
+.analytics .analytics-box h3 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 63.36px;
+    letter-spacing: -0.02em;
+}
+
+.analytics .analytics-box p {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26.24px;
+}
+
+
+@media only screen and (max-width: 1199px) {
+    .analytics .analytics-box h3 {
+        font-size: 36px;
+    }
+
+    .analytics .analytics-box p {
+        font-size: 11px;
+    }
+
+    .analytics .analytics-box h5 {
+        margin-bottom: 31px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+
+    .analytics .analytics-box {
+        margin-bottom: 34px;
+    }
+
+    .analytics .analytics-box h5 {
+        font-size: 17px;
+        margin-bottom: 25px;
+    }
+
+    .analytics .analytics-box h3 {
+        font-size: 31px;
+        line-height: 47.36px;
+    }
+
+    .analytics {
+        padding: 100px 0 110px;
+        margin-bottom: 0px;
+    }
+
+    .analytics::after {
+        max-width: 174px;
+        height: 243px;
+        top: 9px;
+        right: 35px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+
+    .analytics {
+        padding: 53px 17px 57px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .analytics::after {
+        max-width: 107px;
+        height: 142px;
+        top: -3px;
+        right: 18px;
+    }
+
+    .analytics .analytics-box {
+        padding: 1px 3px 20px 20px;
+        max-width: 222px;
+        border-left: 2px solid transparent;
+        border-bottom: 2px solid #072d54;
+        margin: 0 auto;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .analytics .analytics-box p {
+        font-size: 14px;
+        line-height: 18.24px;
+    }
+
+    .analytics {
+        padding: 24px 7px 33px;
+    }
+}

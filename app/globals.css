@@ -185,6 +185,7 @@
 /* Large devices (laptops/desktops, 991px and up) */
 @media only screen and (max-width: 991px) {
   .navbar-toggler {
+    border: 0 !important;
     text-decoration: none;
     margin-right: 0px;
     width: 30px;
@@ -199,13 +200,13 @@
     margin-top: 3px;
   }
   .navbar-toggler:focus {
-    box-shadow: unset;
+    box-shadow: unset !important;
+
   }
   .navbar-toggler-icon {
     height: 3px;
     width: 38px;
     background-image: unset;
-    background-color: #072d54;
     margin: 4px 0px;
     border-radius: 5px;
   }

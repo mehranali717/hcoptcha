@@ -4,22 +4,22 @@ import rebortImg from "@/assets/images/rebot.png";
 import Image from "next/image";
 import "./aboutus.css"
 const AboutUs = () => (
-  <section class="about">
-    <div class="container">
-      <div class="inner">
-        <div class="row">
-          <div class="col-sm-12 col-md-12 col-lg-7 col-xl-6 col-xxl-7">
-            <div class="about-media">
+  <section className="about">
+    <div className="container">
+      <div className="inner">
+        <div className="row">
+          <div className="col-sm-12 col-md-12 col-lg-7 col-xl-6 col-xxl-7">
+            <div className="about-media">
               <Image src={aboutImg} alt="img" />
-              <div class="about-rebot">
+              <div className="about-rebot">
                 <Image src={rebortImg} alt="img" />
               </div>
             </div>
           </div>
-          <div class="col-sm-12 col-md-12 col-lg-5 col-xl-6 col-xxl-5">
-            <div class="about-left-side">
+          <div className="col-sm-12 col-md-12 col-lg-5 col-xl-6 col-xxl-5">
+            <div className="about-left-side">
               <h3>
-                Best <span class="sky-fill">Captcha</span> Solver
+                Best <span className="sky-fill">Captcha</span> Solver
               </h3>
               <p>
                 We develop an affordable service that allows you to solve

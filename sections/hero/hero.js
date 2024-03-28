@@ -4,15 +4,15 @@ import "./hero.css";
 import Image from "next/image";
 
 const Hero = () => (
-  <section class="hero">
-    <div class="container">
-      <div class="inner">
-        <div class="row">
-          <div class="col-sm-12 col-md-12 col-lg-6 col-xl-7 col-xxl-6">
-            <div class="hero-content">
+  <section className="hero">
+    <div className="container">
+      <div className="inner">
+        <div className="row">
+          <div className="col-sm-12 col-md-12 col-lg-6 col-xl-7 col-xxl-6">
+            <div className="hero-content">
               <h1>
-                Seamless <span class="sky-fill">Captcha</span>
-                <span class="pink-fill">Solutions,</span> Anytime, Anywhere
+                Seamless <span className="sky-fill">Captcha</span>
+                <span className="pink-fill">Solutions,</span> Anytime, Anywhere
               </h1>
 
               <p>
@@ -23,8 +23,8 @@ const Hero = () => (
               <Button>Pricing</Button>
             </div>
           </div>
-          <div class="col-sm-12 col-md-12 col-lg-6 col-xl-5 col-xxl-6">
-            <div class="hero-media">
+          <div className="col-sm-12 col-md-12 col-lg-6 col-xl-5 col-xxl-6">
+            <div className="hero-media">
               <Image src={heroImg} alt="img" />
             </div>
           </div>
