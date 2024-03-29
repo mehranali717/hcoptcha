@@ -1,4 +1,4 @@
-import { AboutUs, Analytics, Header, Hero, Pricing } from "@/sections";
+import { AboutUs, Analytics, Header, Hero, Joinus, Pricing } from "@/sections";
 
 const Home = () => {
   return (
@@ -8,6 +8,7 @@ const Home = () => {
       <AboutUs />
       <Analytics />
       <Pricing />
+      <Joinus />
     </>
   );
 };
