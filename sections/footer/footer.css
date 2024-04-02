@@ -1,0 +1,121 @@
+footer {
+    padding: 79px 0 79px;
+    background: rgba(0, 15, 31, 1);
+  }
+  
+  footer .footer-logo {
+    width: 100%;
+    max-width: 152px;
+  }
+  
+  footer .footer-links {
+    width: 100%;
+    max-width: 156px;
+    margin: 0 auto;
+  }
+  
+  footer .footer-links ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+  }
+  
+  footer .footer-links h3 {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 39.36px;
+    text-align: right;
+    margin-bottom: 16px;
+    text-transform: capitalize;
+    color: var(--white);
+  }
+  
+  footer .footer-links ul li img {
+    width: 100%;
+    max-width: 29px;
+  }
+  
+  footer .footer-links ul li a {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 26px;
+    text-transform: capitalize;
+    color: var(--white);
+    text-align: end;
+  }
+  
+  footer .footer-copy p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26.24px;
+    color: var(--white);
+    margin-top: -26px;
+  }
+  
+  @media only screen and (max-width: 991px) {
+    footer .footer-copy p {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 26.24px;
+        color: var(--white);
+        margin-top: 40px;
+      }
+      footer {
+        padding: 52px 0 24px;
+      }
+      footer .footer-links ul li a {
+        font-size: 14px;
+      }
+      footer .footer-links ul {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-left: 26px;
+      }
+    }
+
+
+    @media only screen and (max-width: 575px) {
+        footer {
+            padding: 39px 6px 15px;
+          }
+        
+          footer .footer-logo {
+            max-width: 127px;
+            margin: 0 auto;
+            margin-bottom: 20px;
+          }
+          footer .footer-links h3 {
+            font-size: 23px;
+            margin-bottom: 5px;
+          }
+          footer .footer-copy p {
+            margin-top: 37px;
+            text-align: center;
+          }
+          footer .footer-links {
+            max-width: 152px;
+            margin: unset;
+            margin: 0 auto;
+            text-align: center;
+            margin-bottom: 20px;
+          }
+          footer .footer-links ul {
+            margin-left: 0px;
+            text-align: center;
+          }
+          footer .footer-links ul li a {
+            text-align: center;
+          }
+          footer .footer-links h3 {
+            text-align: center;
+            margin-bottom: 5px;
+          }
+    }
+    @media only screen and (max-width: 425px) {
+        footer {
+            padding: 30px 0px 7px;
+          }
+    }
