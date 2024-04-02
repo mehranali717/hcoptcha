@@ -1,0 +1,5 @@
+ .cards_wrapper {
+    padding: 0px 60px;
+    display: flex;
+    flex-wrap: wrap;
+}

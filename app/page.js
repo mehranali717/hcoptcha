@@ -1,14 +1,15 @@
-import { AboutUs, Analytics, Header, Hero, Joinus, Pricing } from "@/sections";
+import { AboutUs, Analytics, Footer, Header, Hero, Joinus, Pricing } from "@/sections";
 
 const Home = () => {
   return (
     <>
-      <Header />
+      {/* <Header /> */}
       <Hero />
       <AboutUs />
       <Analytics />
       <Pricing />
       <Joinus />
+      <Footer />
     </>
   );
 };

@@ -1,0 +1,46 @@
+ .card {
+     width: 100%;
+     max-width: 412px;
+     background: #fafbfc;
+     padding: 55px 55px 55px 55px;
+     margin-right: 20px;
+     margin-bottom: 20px;
+ }
+
+ .profile .card:nth-child(3) {
+     margin-right: unset;
+ }
+
+ .card h3 {
+     font-size: 20px;
+     font-weight: 600;
+     line-height: 32.8px;
+     margin-bottom: 16px;
+     color: var(--gray);
+ }
+
+ .card p {
+     font-size: 64px;
+     font-weight: 700;
+     line-height: 84.48px;
+     letter-spacing: -0.02em;
+     color: var(--black);
+     margin-bottom: 83px;
+ }
+ .dollar-fill {
+     font-size: 48px;
+ }
+
+ .profile .user-status-btn button {
+     padding: 10px 47px;
+ }
+
+ .profile .user-status-btn button:nth-child(1) {
+     margin-right: 5px;
+ }
+
+ .profile .user-status-btn button:nth-child(2) {
+     border: 1px solid #A028FF;
+     background: transparent;
+     color: #A028FF;
+ }

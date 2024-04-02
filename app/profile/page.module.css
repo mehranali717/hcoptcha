@@ -1,0 +1,205 @@
+.profile {
+    background: rgba(223, 225, 230, 1);
+}
+
+.profile .profile_inner {
+    background: #ffffff;
+}
+
+.profile .user-top {
+    padding: 30px 60px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #c9cbcf;
+    margin-bottom: 105px;
+}
+
+.profile .user-top h3 {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 42.24px;
+    letter-spacing: -0.02em;
+    color: #444444;
+}
+
+
+
+
+
+.profile .user-status {
+    width: 100%;
+    max-width: 412px;
+    background: #fafbfc;
+    padding: 55px 55px 55px 55px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.profile .user-status:nth-child(3) {
+    margin-right: unset;
+}
+
+.profile .user-status p {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 32.8px;
+    margin-bottom: 16px;
+}
+
+.profile .user-status h3 {
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 84.48px;
+    letter-spacing: -0.02em;
+    color: var(--black);
+    margin-bottom: 83px;
+}
+
+.dollar_fill {
+    font-size: 48px;
+}
+.user_status_btn {
+    display: flex;
+    justify-content: space-between;
+}
+.profile .user_status_btn button {
+    padding: 10px 47px;
+    flex: 1;
+}
+
+.profile .user_status_btn button:nth-child(1) {
+    margin-right: 5px;
+}
+
+.profile .user_status_btn button:nth-child(2) {
+    border: 1px solid #A028FF;
+    background: transparent;
+    color: #A028FF;
+}
+.btn_styling {
+    background-color: var(--sky);
+    color: var(--white);
+}
+.profile .top-btn {
+    padding: 14px 108px !important;
+}
+
+.user_blur {
+    margin-bottom: 83px;
+}
+.profile .user-status .api-img {
+    margin-bottom: 83px;
+}
+
+/* user data css */
+.profile .profile_media {
+    width: 100%;
+    max-width: 503px;
+}
+
+.user_info {
+    padding: 60px 55px 36px 55px;
+}
+
+.user_info .profile_media {
+    padding: 60px 60px 60px 60px;
+}
+
+.user_info .profile_image {
+    width: 100%;
+    max-width: 160px;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-top: -138px;
+    margin-bottom: 67px;
+}
+
+.user_info .user_form {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 24px;
+    align-items: center;
+}
+
+.user_info .user_form label {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22.96px;
+    text-transform: uppercase;
+    color: var(--gray);
+}
+
+.user_info .user_form h3 {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 32.8px;
+}
+
+.user_info .profile_bottom {
+    width: 100%;
+    max-width: 380px;
+    margin: 0 auto;
+    margin-top: 260px;
+}
+.user_info .profile_btn_wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+.user_info .profile_btn_wrapper button {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 22.96px;
+    text-transform: capitalize;
+    padding: 12px 48px;
+    color: var(--white);
+    flex: 1;
+}
+
+.user_info .profile_btn_wrapper button:nth-child(1) {
+    background: var(--sky);
+    border: none;
+    margin-right: 5px;
+
+}
+
+.user_info .profile_btn_wrapper button:nth-child(2) {
+    background: rgba(255, 238, 235, 1);
+    border: none;
+    margin-right: 5px;
+    color: #ff5630;
+}
+
+.profile_list ul {
+    display: flex;
+    align-items: center;
+    padding: 2px 0px 24px;
+    border-bottom: 1.2px solid #dfe1e6;
+    margin-bottom: 24px;
+}
+
+.profile_list ul li {
+    margin: 0px 8px;
+}
+
+.profile .change_button {
+    background: #ffffff;
+    border: 1px solid #dfe1e6;
+    color: var(--sky);
+    padding: 9px 12px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 22.96px;
+}
+
+.profile_list ul li a {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 26.24px;
+    color: #5a5c5f;
+}
+
+.profile_list ul li img {
+    width: 100%;
+    max-width: 29px;
+}

@@ -1,0 +1,21 @@
+    .head_Title {
+        padding: 30px 60px 30px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: 1px solid #c9cbcf;
+        margin-bottom: 105px;
+    }
+
+    .heade_Title h3 {
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 42.24px;
+        letter-spacing: -0.02em;
+        color: #444444;
+    }
+
+    .user_logo {
+        width: 100%;
+        max-width: 153px;
+    }
