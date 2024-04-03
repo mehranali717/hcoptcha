@@ -3,8 +3,9 @@
    max-width: 739px;
    height: 100vh;
  }
+
  .auth-media img {
-  height: 100%;
+   height: 100%;
  }
 
  .auth-right {
@@ -30,11 +31,9 @@
    display: flex;
    align-items: center;
    justify-content: center;
-   padding: 2px 0px 24px;
    border-bottom: unset;
-   margin-top: 4px;
+   margin: 20px 0px;
  }
-
  .card-body {
    padding: unset;
  }
@@ -117,18 +116,23 @@
 
  .modal-overlay {
    background: rgb(177 178 179);
-   ;
-
  }
 
  .custom-footer .profile-list ul {
    justify-content: flex-start;
  }
-
+ .profile-list ul li {
+  margin: 0px 8px;
+}
  .custom-footer .profile-list ul li {
    margin: unset;
    margin-right: 5px;
    margin-top: 20px;
+ }
+
+ .profile-list ul li img {
+   max-width: 29px;
+   width: 100%;
  }
 
  .modal-head {

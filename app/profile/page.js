@@ -4,14 +4,16 @@ import SidebarbgImg from "@/assets/images/user-bg.png";
 import profileImg from "@/assets/images/user.png";
 import telegramImg from "@/assets/images/telegram.png";
 import discordImg from "@/assets/images/Discord.png";
-import  apiImg from "@/assets/images/apiImg.png"
+import apiImg from "@/assets/images/apiImg.png";
 import Link from "next/link";
 import { Button } from "@/components";
 import Head from "@/components/head/head";
 import Card from "@/components/card/card";
 import CardsWrapper from "@/sections/cards-wrapper/cards-wrapper";
+import MainLayout from "../layouts/mainLayout";
 const Page = () => (
-  <section className={classes.profile}>
+  <MainLayout>
+    <section className={classes.profile}>
     <div className="container-fluid">
       <div className={classes.inner}>
         <div className="row">
@@ -26,29 +28,29 @@ const Page = () => (
                 </div>
                 <div className={classes.user_form}>
                   <div className={classes.profile_data}>
-                    <label for="">User Name</label>
+                    <label htmlFor="">User Name</label>
                     <h3>Jean-Luc</h3>
                   </div>
                   <div className={classes.updated_btn}>
-                    <button className={classes.change_button}>Change</button>
+                    <Button className={classes.change_button}>Change</Button>
                   </div>
                 </div>
                 <div className={classes.user_form}>
                   <div className={classes.profile_data}>
-                    <label for="">Email</label>
+                    <label htmlFor="">Email</label>
                     <h3>Jeanluc@gmail.com</h3>
                   </div>
                   <div className={classes.updated_btn}>
-                    <button className={classes.change_button}>Change</button>
+                    <Button className={classes.change_button}>Change</Button>
                   </div>
                 </div>
                 <div className={classes.user_form}>
                   <div className={classes.profile_data}>
-                    <label for="">Password</label>
+                    <label htmlFor="">Password</label>
                     <h3>******</h3>
                   </div>
                   <div className={classes.updated_btn}>
-                    <button className={classes.change_button}>Change</button>
+                    <Button className={classes.change_button}>Change</Button>
                   </div>
                 </div>
 
@@ -71,8 +73,12 @@ const Page = () => (
                     </ul>
                   </div>
                   <div className={classes.profile_btn_wrapper}>
-                    <Button>User guide</Button>
-                    <Button>log out</Button>
+                    <Button>
+                      <Link href="/"> User guide</Link>
+                    </Button>
+                    <Button>
+                      <Link href="/"> log out</Link>
+                    </Button>
                   </div>
                 </div>
               </div>
@@ -102,11 +108,11 @@ const Page = () => (
                 <Card>
                   <h3>Balance</h3>
                   <div className={classes.user_blur}>
-                    <Image src={apiImg} alt="apiImg"/>
+                    <Image src={apiImg} alt="apiImg" />
                   </div>
                   <div className={classes.user_status_btn}>
                     <Button className={`${classes.btn_styling}`}>Reveal</Button>
-                    <Button >Reset</Button>
+                    <Button>Reset</Button>
                   </div>
                 </Card>
               </CardsWrapper>
@@ -116,5 +122,6 @@ const Page = () => (
       </div>
     </div>
   </section>
+  </MainLayout>
 );
 export default Page;
