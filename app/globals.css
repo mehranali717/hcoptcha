@@ -65,7 +65,6 @@
   .btn-check:focus+.btn, .btn:focus{
     box-shadow: unset;
   }
-  
   h1 {
     font-size: 64px;
     font-weight: 700;

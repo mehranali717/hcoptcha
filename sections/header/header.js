@@ -35,13 +35,12 @@ const Header = () => (
         >
           <Navbar navItems={navItems} />
           <div className="header-btns">
-            <Button>
-              <Link href="/profile">Login In</Link>
-            </Button>
-            <Button>
-              {" "}
-              <Link href="/profile">Sign Up</Link>
-            </Button>
+          <Link href="/"> <Button>
+              Login In
+            </Button></Link>
+            <Link href="/profile"> <Button>
+              Sign Up
+            </Button></Link>
           </div>
         </div>
       </div>

@@ -1,16 +1,12 @@
-import { AboutUs, Analytics, Footer, Header, Hero, Joinus, Pricing } from "@/sections";
+import Sidebar from "@/components/sidebar/sidebar";
+import Login from "./login/page";
 
-const Home = () => {
+const AuthLogin = () => {
   return (
-    <>
-      {/* <Header /> */}
-      <Hero />
-      <AboutUs />
-      <Analytics />
-      <Pricing />
-      <Joinus />
-      <Footer />
-    </>
-  );
+    <div className="d-flex">
+    <Sidebar />
+    <Login />
+    </div>
+  )
 };
-export default Home;
+export default AuthLogin

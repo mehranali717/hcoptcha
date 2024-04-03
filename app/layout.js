@@ -1,4 +1,3 @@
-import { Header } from "@/sections";
 import "./globals.css";
 import "bootstrap/dist/css/bootstrap.css";
 
@@ -11,7 +10,6 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
-        <Header />
         {children}
       </body>
     </html>
