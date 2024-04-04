@@ -28,7 +28,7 @@ const Page = () => (
                 </div>
                 <div className={classes.user_form}>
                   <div className={classes.profile_data}>
-                    <label htmlFor="">User Name</label>
+                    <label htmlFor="username">User Name</label>
                     <h3>Jean-Luc</h3>
                   </div>
                   <div className={classes.updated_btn}>
@@ -37,7 +37,7 @@ const Page = () => (
                 </div>
                 <div className={classes.user_form}>
                   <div className={classes.profile_data}>
-                    <label htmlFor="">Email</label>
+                    <label htmlFor="email">Email</label>
                     <h3>Jeanluc@gmail.com</h3>
                   </div>
                   <div className={classes.updated_btn}>
@@ -46,7 +46,7 @@ const Page = () => (
                 </div>
                 <div className={classes.user_form}>
                   <div className={classes.profile_data}>
-                    <label htmlFor="">Password</label>
+                    <label htmlFor="password">Password</label>
                     <h3>******</h3>
                   </div>
                   <div className={classes.updated_btn}>

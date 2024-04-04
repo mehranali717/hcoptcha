@@ -1,6 +1,8 @@
-const Input =({props, placeholder, type})=><input
+"use client";
+
+const Input =({props, placeholder, type, id})=><input
 {...props}
-// type="password"
+id={id}
 type={type}
 placeholder={placeholder}
 name="uname"
