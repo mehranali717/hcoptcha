@@ -59,18 +59,7 @@
    margin-bottom: 24px;
  }
 
- input[type="text"],
- input[type="password"],
- input[type="email"] {
-   width: 100%;
-   padding: 16px 20px 16px 20px;
-   margin: 8px 0;
-   display: inline-block;
-   border: 1.4px solid #dfe1e6;
-   border-radius: 8px;
-   box-sizing: border-box;
-   margin-bottom: 12px;
- }
+
 
  /* button {
    width: 100%;
@@ -93,7 +82,10 @@
    color: #2994ff;
    margin-top: 10px;
  }
-
+.checkbox_wrapper {
+  display: flex;
+  align-items: center;
+}
  .checked {
    display: flex;
    align-items: center;

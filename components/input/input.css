@@ -1,0 +1,17 @@
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+  width: 100%;
+  padding: 16px 20px 16px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1.4px solid #dfe1e6;
+  border-radius: 8px;
+  box-sizing: border-box;
+  margin-bottom: 12px;
+}
+input[type="checkbox"]{
+height: 15px;
+width: 15px;
+margin-right: 8px;
+}

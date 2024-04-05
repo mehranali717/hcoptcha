@@ -4,8 +4,13 @@ import "./page.css";
 import logoImg from "@/assets/images/logo.png";
 import Image from "next/image";
 import Link from "next/link";
-import { Button } from "@/components";
+import { Button, Navbar } from "@/components";
 import Input from "@/components/input/input";
+const navItems = [
+  { navItem: "Contact" },
+  { navItem: telegramImg },
+  { navItem: discordImg },
+];
 const Login = () => {
   return <div className="col-sm-6 col-md-7 col-lg-7 col-xl-7">
     <div className="auth-right">
@@ -37,8 +42,8 @@ const Login = () => {
             <Input type="text" placeholder="Enter Name" />
             <Input type="password" placeholder="Enter Password" />
             <div className="checked">
-              <div className="">
-                    <Input type="checkbox" name="Remember" id="horns"/>
+              <div className="checkbox_wrapper">
+                <Input type="checkbox" name="Remember" id="horns"/>
                 <label htmlFor="horns">Remember me</label>
               </div>
 
@@ -69,7 +74,8 @@ const Login = () => {
             </Link>
           </div>
         </form>
-        <div className="auth-links">
+        <Navbar navItems={navItems}/>
+        {/* <div className="auth-links">
           <div className="profile-list">
             <ul>
               <li>
@@ -87,7 +93,7 @@ const Login = () => {
               </li>
             </ul>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   </div>

@@ -1,5 +1,5 @@
 import Link from "next/link";
-import "./Navbar.css"
+import "./navbar.css"
 
 const Navbar = ({ navItems }) => (
   <ul className="navbar-nav mx-auto" id="menu">

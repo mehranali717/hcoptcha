@@ -1,5 +1,5 @@
 "use client";
-
+import "./input.css"
 const Input =({props, placeholder, type, id})=><input
 {...props}
 id={id}

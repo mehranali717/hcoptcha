@@ -20,8 +20,3 @@ header {
     color: var(--white);
     border: none;
 }
-
-/* .header-btns button:nth-child() {
-    border: 1px solid rgba(41, 148, 255, 1);
-    color: var(--sky);
-} */
